@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: 'Open Sans';
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -50,25 +50,53 @@ $on-laptop:        800px;
         "layout"
 ;
 
-.column-left {
-  float: left;
-  width: 27%;
-  padding: 3%;
-}
-
-.column-right {
-  float: right;
-  width: 27%;
-  padding: 3%;
-}
-.column-center {
-  display: inline-block;
-  width: 27%;
-  padding: 3%;
+h2 {
+  font-size: 30px;
+  font-weight: 700 !important;
 }
 
 .first-section {
   text-align: center;
+}
+
+.column-left {
+  float: left;
+  width: 40%;
+  padding-right: 5%;
+  padding-top: 6%;
+}
+
+
+.column-right {
+  float: right;
+  width: 55%;
+}
+
+.second-section {
+  float: center;
+  margin: 5% auto;
+  width: 100%;
+}
+
+
+
+
+
+.video-left {
+  float: left;
+  width: 30%;
+  padding-right: 5%;
+}
+
+.or-center {
+  display: inline-block;
+  width: 30%;
+}
+
+.video-right {
+  float: right;
+  width: 30%;
+  padding-left: 5%;
 }
 
 .button {
